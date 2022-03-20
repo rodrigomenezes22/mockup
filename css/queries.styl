@@ -1,0 +1,91 @@
+@media only screen and (min-width: 768px)
+
+    .main-navi 
+        display: block
+        ul 
+            li 
+                text-align: left
+
+    .right-column
+        width: 80%
+
+    header 
+        display: flex 
+        flex-direction: row
+        height: 90px
+
+        .navbar-start
+            height: 90px
+            width: 20%
+            img
+                width: 160px
+                height: 58px
+                padding: .5rem
+
+        .navbar-middle
+            width: 60%
+            position: static
+            align-items: flex-start
+
+        .navbar-end 
+            align-items: flex-end
+            width: 20%
+
+        .search-field 
+            background-color: $secondary_100
+            border: 0px
+            border-radius: 5px 
+            padding: .5rem
+            max-width: 300px
+        
+        .select-input
+            background-color: $secondary_100
+            border: 0px
+            border-radius: 5px 
+            padding: .5rem
+            max-width: 300px
+
+        .field-wrapper
+            label
+                color: $header_text_100
+
+    footer 
+        position: fixed 
+        bottom: 0px 
+        left: 0px 
+        width: 100%
+
+        .footer-wrapper
+            position: relative
+            left: 0px
+            bottom: 30px
+            width: 20%
+            display: flex 
+            flex-direction: row
+
+    .submit
+        width: 75% 
+        margin: 0px 
+
+    .navbar-burger 
+        display: none
+
+@media only screen and (min-width: 1024px)
+    .container
+        width: 1024px
+        margin: 0px auto
+
+
+
+@media only screen and (min-width: 1440px)
+
+    .container
+        width: 1280px
+        margin: 0px auto
+
+
+@media only screen and (min-width: 1920px)
+
+    .container
+        width: 1440px
+        margin: 0px auto
