@@ -1,3 +1,3 @@
 # mockup
 
-Just a test.
+Hacker News sample. HTML, CSS and a few JS scripts.
