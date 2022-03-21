@@ -35,6 +35,10 @@ header .search-field {
   padding: 0.5rem;
   width: 95%;
 }
+header .search-field:focus-visible {
+  outline: 1px solid #333;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.2);
+}
 header .select-input {
   background-color: #bdd6dd;
   border: 0px;
